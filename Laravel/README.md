@@ -18,7 +18,7 @@ However, if you are not using Homestead, you will need to make sure your server 
 
 #Installing Composer
 Laravel utilizes Composer to manage its dependencies. So, before using Laravel, make sure you have Composer installed on your machine.
-  >> https://getcomposer.org/download/
+  >> https://getcomposer.org/doc/00-intro.md
 
 #Installing Laravel
 Via Laravel Installer<br/>
