@@ -3,7 +3,7 @@
   <li>Laravel</li>
 </ul>
 
-#<span id="laravel">Server Requirements</span>
+#Server Requirements
 The Laravel framework has a few system requirements. Of course, all of these requirements are satisfied by the Laravel Homestead 
 virtual machine, so it's highly recommended that you use Homestead as your local Laravel development environment.<br/>
 However, if you are not using Homestead, you will need to make sure your server meets the following requirements:
