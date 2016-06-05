@@ -1,0 +1,33 @@
+#Server Requirements
+
+The Laravel framework has a few system requirements. Of course, all of these requirements are satisfied by the Laravel Homestead 
+virtual machine, so it's highly recommended that you use Homestead as your local Laravel development environment.
+
+However, if you are not using Homestead, you will need to make sure your server meets the following requirements:
+
+<li>PHP >= 5.5.9</li>
+<li>OpenSSL PHP Extension</li>
+<li>PDO PHP Extension</li>
+<li>Mbstring PHP Extension</li>
+<li>Tokenizer PHP Extension</li>
+
+#Installing Composer
+
+Laravel utilizes Composer to manage its dependencies. So, before using Laravel, make sure you have Composer installed on your machine.
+https://getcomposer.org/download/
+
+#Installing Laravel
+Via Laravel Installer
+
+First, download the Laravel installer using Composer:
+
+composer global require "laravel/installer"
+Make sure to place the ~/.composer/vendor/bin directory (or the equivalent directory for your OS) in your PATH so the laravel executable can be located by your system.
+
+Once installed, the laravel new command will create a fresh Laravel installation in the directory you specify. For instance, laravel new blog will create a directory named blog containing a fresh Laravel installation with all of Laravel's dependencies already installed. This method of installation is much faster than installing via Composer:
+
+laravel new name-aplication
+
+Now you can change all the blog paste to another one and start your project with:
+php artisan server
+Make sure to place the where you fixed your new applicatin.
